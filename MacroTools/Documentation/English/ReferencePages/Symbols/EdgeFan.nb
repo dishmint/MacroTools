@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     34047,        948]
+NotebookDataLength[     34046,        948]
 NotebookOptionsPosition[     25476,        760]
-NotebookOutlinePosition[     26257,        786]
-CellTagsIndexPosition[     26178,        781]
+NotebookOutlinePosition[     26256,        786]
+CellTagsIndexPosition[     26177,        781]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -221,10 +221,10 @@ Cell[TextData[{
     "507a87a6-80c0-43fd-a32b-a0d0776d694d"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
     "21d83a3b-84eb-4fea-9c4b-ba7e80fef832", 
-     "d36b0076-ed84-40d9-a595-61438d8fd7c3"], $CellContext`cellobj$$ = 
+     "448d468b-8f43-4b02-b72c-8c0163cb043a"], $CellContext`cellobj$$ = 
     CellObject[
     "1e903827-e015-41d6-90d6-7f7779627253", 
-     "aeefa443-74d0-4105-b5be-9b2b38727032"]}, 
+     "c7152ea4-7cf0-4b38-ad4e-dabbf0f8b13d"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -484,7 +484,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.899737968070047*^9, 3.899737999840789*^9}, {
   3.899739455086583*^9, 3.899739462057147*^9}, {3.899739494212206*^9, 
   3.899739533296324*^9}},
- CellLabel->"In[33]:=",
+ CellLabel->"In[12]:=",
  CellID->1147559477,ExpressionUUID->"97aa82b0-2b58-4439-9d89-49fc9d5f16d0"],
 
 Cell[CellGroupData[{
@@ -758,8 +758,8 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1440, 847},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{720, 847},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "FaizonZaman/MacroTools"|>,
 CellContext->"Global`",
 FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (June 3, 2023)",
@@ -780,7 +780,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 25984, 774}
+ {"ExtendedExamples", 25983, 774}
  }
 *)
 (*NotebookFileOutline

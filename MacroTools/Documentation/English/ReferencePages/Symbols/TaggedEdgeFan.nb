@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17780,        495]
-NotebookOptionsPosition[     11936,        369]
-NotebookOutlinePosition[     12715,        395]
-CellTagsIndexPosition[     12636,        390]
+NotebookDataLength[     39173,       1156]
+NotebookOptionsPosition[     30695,        970]
+NotebookOutlinePosition[     31475,        996]
+CellTagsIndexPosition[     31396,        991]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,19 +24,322 @@ Cell["TaggedEdgeFan", "ObjectName",
  CellID->796979669,ExpressionUUID->"266ff515-f112-47f2-a433-abcd03f6e175"],
 
 Cell[TextData[{
- Cell["   ", "ModInfo",ExpressionUUID->"ec9f2481-43f6-46c6-bb18-3cef0e928f67"],
- "TaggedEdgeFan[e[p,c1]\[LineSeparator]] returns a list of edges with edge \
-type ",
+ Cell["   ", "ModInfo",ExpressionUUID->"ae4a6695-96f7-4d80-83b2-4c6f827680d0"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{
+     StyleBox["p", "TI"], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        StyleBox["1", "TR"]], ",", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        StyleBox["2", "TR"]], ",", " ", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}]}], "]"}], "]"}]], 
+  "InlineFormula",ExpressionUUID->"1487c7c9-74d3-4f0d-b36f-76dac5dde819"],
+ "\[LineSeparator]Fans edges with edge type ",
  Cell[BoxData[
   StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
-  "492b55a3-5b57-4097-a5ae-5cdec9d9c075"],
- " from ",
+  "b327a0cf-8a83-4fbc-84bd-f5ac0959c855"],
+ " with automatic tags from parent ",
  Cell[BoxData[
   StyleBox["p", "TI"]], "InlineFormula",ExpressionUUID->
-  "b0d681a6-94d5-43b2-813f-f07f4789cdf0"],
- " to each ci with integer tags"
+  "219582ab-91da-48c8-802e-d0c6db8baa4e"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "4d248815-f379-4614-b689-d959558d9311"],
+ ".\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"559887e3-b7a8-462e-9528-c91bdb44a723"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["p", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", 
+       SubscriptBox[
+        StyleBox["p", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}]}], "]"}], "]"}]], 
+  "InlineFormula",ExpressionUUID->"c841b44c-2b15-4ded-a795-25543e2f8740"],
+ "\[LineSeparator]Fans edges with edge type ",
+ Cell[BoxData[
+  StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
+  "bca1aa15-65f7-4832-a62a-c07dfb1ba582"],
+ " automatic tags from parent ",
+ Cell[BoxData[
+  StyleBox["p", "TI"]], "InlineFormula",ExpressionUUID->
+  "944c1e38-8816-4a90-845d-26dbda61b444"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "20460b39-e8c2-4158-bfb2-6626daefb853"],
+ ".\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"b21c59b8-3095-4f4d-a593-234d843b223e"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{"{", 
+     RowBox[{
+      StyleBox["ps", "TI"], ",", " ", 
+      SubscriptBox[
+       StyleBox["c", "TI"], 
+       SubscriptBox[
+        StyleBox["", "TR"], 
+        StyleBox["1", "TR"]]], ",", 
+      SubscriptBox[
+       StyleBox["c", "TI"], 
+       SubscriptBox[
+        StyleBox["", "TR"], 
+        StyleBox["2", "TR"]]], ",", 
+      StyleBox["\[Ellipsis]", "TR"]}], "}"}], "]"}], "]"}]], "InlineFormula",
+  ExpressionUUID->"8c2d1d23-292e-48c5-bcb8-9cfc20868147"],
+ "\[LineSeparator]Fans edges with edge type ",
+ Cell[BoxData[
+  StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
+  "4c762c1d-1440-45e0-899f-ad7c3910beb2"],
+ " automatic tags from each parent in ",
+ Cell[BoxData[
+  StyleBox["ps", "TI"]], "InlineFormula",ExpressionUUID->
+  "3bfa94ed-cf44-4d40-b7ac-bbbebb2e8e78"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "4b23baf9-4446-44fa-9e76-a0c219644e8a"],
+ ".\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"4df5d338-2def-4b7c-baa4-b9487f1c9eac"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{
+     StyleBox["p", "TI"], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        StyleBox["1", "TR"]], ",", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        StyleBox["2", "TR"]], ",", " ", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["t", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", " ", 
+       SubscriptBox[
+        StyleBox["t", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", " ", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}]}], "]"}], "]"}]], 
+  "InlineFormula",ExpressionUUID->"74a88f9a-a7ed-4e79-bd6d-41811a3ad584"],
+ "\[LineSeparator]Fans edges with edge type ",
+ Cell[BoxData[
+  StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
+  "9ff6a049-5e4a-4760-93f2-08a64142b81e"],
+ " and tag ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["t", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "c34d8bbf-8bcf-4b74-b90e-2475bf5bf207"],
+ " from parent ",
+ Cell[BoxData[
+  StyleBox["p", "TI"]], "InlineFormula",ExpressionUUID->
+  "e31670bd-2242-48b5-8f3f-62ae5731184b"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "b60e8229-43d1-4090-80e0-92f73879f442"],
+ ".\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"f8093f01-0b7f-4a44-beba-a13796960e67"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["p", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", 
+       SubscriptBox[
+        StyleBox["p", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox[
+        StyleBox["t", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", 
+       SubscriptBox[
+        StyleBox["t", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}]}], "]"}], "]"}]], 
+  "InlineFormula",ExpressionUUID->"dfb339fa-7d73-4cf7-8bdc-9c1ba1399c60"],
+ "\[LineSeparator]Fans edges with edge type ",
+ Cell[BoxData[
+  StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
+  "0feb72ce-cacf-4861-adb9-67069fb52ef0"],
+ " and tag ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["t", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "4c5a3804-e50f-4cfe-bb69-3bae948ddd1f"],
+ " from parent ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["p", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "db3e5c49-f3fd-499c-8bb0-7839a59e8a1b"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "c945463c-7234-4672-899e-dbf04f2e3a57"],
+ ".\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"0b1a7a47-077d-4731-9d29-432d233422f5"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["TaggedEdgeFan",
+    BaseStyle->"Link",
+    ButtonData->"paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], "[", 
+   RowBox[{
+    StyleBox["e", "TI"], "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       StyleBox["ps", "TI"], ",", " ", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["1", "TR"]]], ",", " ", 
+       SubscriptBox[
+        StyleBox["c", "TI"], 
+        SubscriptBox[
+         StyleBox["", "TR"], 
+         StyleBox["2", "TR"]]], ",", " ", 
+       StyleBox["\[Ellipsis]", "TR"]}], "}"}], ",", " ", 
+     StyleBox["ts", "TI"]}], 
+    StyleBox["]", "TI"]}], "]"}]], "InlineFormula",ExpressionUUID->
+  "92fe3dc1-18b7-4369-baf8-4ea7c0b367b0"],
+ "\[LineSeparator]Fans edges with edge type ",
+ Cell[BoxData[
+  StyleBox["e", "TI"]], "InlineFormula",ExpressionUUID->
+  "26680209-80a3-40e4-82f4-1c8608c8d0a6"],
+ " and tags from ",
+ Cell[BoxData[
+  StyleBox["ts", "TI"]], "InlineFormula",ExpressionUUID->
+  "652aab20-677f-40a1-8b01-80c00eab0c79"],
+ " from each parent in ",
+ Cell[BoxData[
+  StyleBox["ps", "TI"]], "InlineFormula",ExpressionUUID->
+  "5dad5953-bc57-4a16-a4fb-257298e17ff2"],
+ " to child ",
+ Cell[BoxData[
+  SubscriptBox[
+   StyleBox["c", "TI"], 
+   SubscriptBox[
+    StyleBox["", "TR"], 
+    StyleBox["i", "TR"]]]], "InlineFormula",ExpressionUUID->
+  "aa106741-fc70-4bed-bc9f-d906346e4976"],
+ "."
 }], "Usage",
- CellChangeTimes->{{3.899736978569388*^9, 3.899736978604244*^9}},
+ CellChangeTimes->{{3.899736978569388*^9, 3.899736978604244*^9}, {
+  3.899773787033471*^9, 3.8997741568723783`*^9}},
  CellID->981790544,ExpressionUUID->"fd6f795d-c0ef-49bb-a3bf-716ac6714e9a"],
 
 Cell["XXXX", "Notes",
@@ -61,21 +364,25 @@ Cell[TextData[{
  CellID->1240463724,ExpressionUUID->"91c89b12-187b-41c6-a0df-5a6e73e4f5ab"],
 
 Cell[TextData[{
- Cell[BoxData[
-  TagBox[
-   FrameBox["\<\"XXXX\"\>"],
-   "FunctionPlaceholder"]], "InlineSeeAlsoFunction",
+ Cell[BoxData["DirectedEdge"], "InlineSeeAlsoFunction",
   TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
   "ba63b564-462b-4ebf-a5ec-e05f7df90db7"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData["UndirectedEdge"], "InlineSeeAlsoFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c34cb835-5c1d-4fae-984d-227148aa810a",ExpressionUUID->
+  "97ec44dd-d5f4-4109-b0aa-7aa07c424c51"],
  Cell[BoxData[
   RowBox[{
   Cell[TextData[StyleBox[
    " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
     "bed9255d-dbe6-42bd-a687-edd8f709f59d"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
-     FrontEndObject[
-      LinkObject["i7bzb_shm", 209, 9]], 22], $CellContext`cellobj$$ = 
-    CellObject[6753]}, 
+    "662c0246-532c-4826-9c7b-8cc8700825bb", 
+     "643299c5-bc01-4118-aa8e-b9b3ed3e439a"], $CellContext`cellobj$$ = 
+    CellObject[
+    "65ef31b0-6174-42ef-b978-8309929188aa", 
+     "0373461c-4399-4f46-a0f3-a347bf903a50"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -100,6 +407,7 @@ Cell[TextData[{
   "InlineListingAddButton",ExpressionUUID->
   "65ef31b0-6174-42ef-b978-8309929188aa"]
 }], "SeeAlso",
+ CellChangeTimes->{{3.899774178286538*^9, 3.899774194219406*^9}},
  CellID->702564192,ExpressionUUID->"40a8fce7-b0cf-417a-be10-a4e301c375f9"]
 }, Open  ]],
 
@@ -177,6 +485,8 @@ Cell[BoxData[
  CellID->609669049,ExpressionUUID->"82faaf0e-eee1-4e13-93c8-17c0d8f3b5e0"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  InterpretationBox[GridBox[{
     {
@@ -190,6 +500,97 @@ Cell[BoxData[
    }],
   $Line = 0; Null]], "PrimaryExamplesSection",
  CellID->1063226706,ExpressionUUID->"4c2339f9-b5e0-4e3a-be47-69da443c05c6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{"a", ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "d", ",", "e"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.899774217041937*^9, 3.899774220846376*^9}, {
+  3.899774252016453*^9, 3.899774252491541*^9}},
+ CellLabel->"In[45]:=",
+ CellID->545142568,ExpressionUUID->"1576ea58-a9ec-464b-8cea-7d10f94cae3c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "b", "1"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "c", "2"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "3"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "4"},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.899774223053982*^9, 3.899774253829565*^9},
+ CellLabel->"Out[45]=",
+ CellID->797774790,ExpressionUUID->"c60eee3c-fe37-47cb-b80c-97fc0bc7faf2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"UndirectedEdge", "[", 
+   RowBox[{"a", ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "d", ",", "e"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.899774268624317*^9, 3.899774269730632*^9}},
+ CellLabel->"In[46]:=",
+ CellID->1460487309,ExpressionUUID->"69826bcf-b1e7-4142-8c39-5347943b2228"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "b", "1"},
+    "UndirectedEdge"], ",", 
+   TemplateBox[{"a", "c", "2"},
+    "UndirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "3"},
+    "UndirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "4"},
+    "UndirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.899774270506277*^9},
+ CellLabel->"Out[46]=",
+ CellID->1103931261,ExpressionUUID->"7855d74a-75f5-4d0f-b676-7385407dc55c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{"1", ",", 
+    RowBox[{"Range", "[", 
+     RowBox[{"2", ",", "5"}], "]"}], ",", 
+    RowBox[{"CharacterRange", "[", 
+     RowBox[{"\"\<A\>\"", ",", "\"\<D\>\""}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.899774291189138*^9, 3.8997743026645737`*^9}},
+ CellLabel->"In[47]:=",
+ CellID->868969178,ExpressionUUID->"f762c39c-0f14-4ac5-92b1-55aa4eadf2e5"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"1", "2", "\"A\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"1", "3", "\"B\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"1", "4", "\"C\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"1", "5", "\"D\""},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.89977430348671*^9},
+ CellLabel->"Out[47]=",
+ CellID->1399044447,ExpressionUUID->"0382b0e9-d4e2-4e59-af26-02390f1f57ec"]
+}, Open  ]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -208,12 +609,212 @@ Cell[TextData[{
  CellTags->"ExtendedExamples",
  CellID->439821055,ExpressionUUID->"b9f902d6-b978-4ed7-a5cd-f34c18fedb56"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  InterpretationBox[Cell[
   "Scope", "ExampleSection",ExpressionUUID->
    "48f5bc8f-d574-4bd3-a3d9-bf783626b00e"],
   $Line = 0; Null]], "ExampleSection",
  CellID->433758411,ExpressionUUID->"29c9087f-936c-4e7c-8b23-0f37e5d5aa55"],
+
+Cell["Multiple parents:", "ExampleText",
+ CellChangeTimes->{{3.89977321314736*^9, 3.899773217900775*^9}},
+ CellID->1618322512,ExpressionUUID->"6eed951e-8a09-4955-977c-ce4b748d0f53"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "d", ",", "e", ",", "f"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.899773220276824*^9, 3.899773232336911*^9}, {
+  3.899774370998872*^9, 3.899774377159391*^9}},
+ CellLabel->"In[49]:=",
+ CellID->845620628,ExpressionUUID->"b9a79a43-5dde-4f63-a3e4-00161e7ac27a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "c", "1"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "2"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "3"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "f", "4"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "c", "1"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "d", "2"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "e", "3"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "f", "4"},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.899773232771399*^9, 3.899774377646162*^9},
+ CellLabel->"Out[49]=",
+ CellID->963656506,ExpressionUUID->"276099e4-ff09-4165-b347-8795953e212c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "ee1f7997-8d6f-4e8f-bda4-6f1705b5767d"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->1169100813,ExpressionUUID->"61305b72-e946-4aa0-aece-c304db9765bd"],
+
+Cell["Give a single list as input:", "ExampleText",
+ CellChangeTimes->{{3.89977326965777*^9, 3.899773274282426*^9}},
+ CellID->2052640109,ExpressionUUID->"b6a8ec47-538b-4e0a-8ed5-68e914aeedf7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b"}], "}"}], ",", "c", ",", "d", ",", "e", ",", 
+     "f"}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.899773282617407*^9, 3.899773294364025*^9}, {
+  3.899774382772142*^9, 3.8997743885799837`*^9}},
+ CellLabel->"In[50]:=",
+ CellID->1510358467,ExpressionUUID->"17d99ed7-907b-4c36-acab-f63fdee06ea3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "c", "1"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "2"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "3"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "f", "4"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "c", "1"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "d", "2"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "e", "3"},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "f", "4"},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8997732847733994`*^9, 3.89977329482244*^9}, 
+   3.899774389427033*^9},
+ CellLabel->"Out[50]=",
+ CellID->756297098,ExpressionUUID->"78126d63-8eaf-43bf-92b8-412c621564ba"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "81476030-d18c-4307-9a2d-796b2ef3b0ac"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->858812825,ExpressionUUID->"21b6ac76-d136-40e1-b7fe-c72cc1a06e1c"],
+
+Cell["Give explicit tags:", "ExampleText",
+ CellChangeTimes->{{3.89977339037039*^9, 3.899773413781106*^9}},
+ CellID->1920461631,ExpressionUUID->"c4b96d2c-7760-46f0-b9aa-dfcc8ac632dd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "d", ",", "e", ",", "f"}], "}"}], ",", 
+    RowBox[{"CharacterRange", "[", 
+     RowBox[{"\"\<A\>\"", ",", "\"\<D\>\""}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.899773443456614*^9, 3.899773443881134*^9}, {
+  3.899774396188596*^9, 3.899774402214435*^9}},
+ CellLabel->"In[51]:=",
+ CellID->1535085520,ExpressionUUID->"513606f0-81f6-4da2-b023-a569609279c8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "c", "\"A\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "\"B\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "\"C\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "f", "\"D\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "c", "\"A\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "d", "\"B\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "e", "\"C\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "f", "\"D\""},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8997734450935802`*^9, 3.899774402865288*^9},
+ CellLabel->"Out[51]=",
+ CellID->2133972799,ExpressionUUID->"a9620c96-bad9-45a6-939e-9302288ba6bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TaggedEdgeFan", "[", 
+  RowBox[{"DirectedEdge", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"a", ",", "b"}], "}"}], ",", "c", ",", "d", ",", "e", ",", 
+      "f"}], "}"}], ",", 
+    RowBox[{"CharacterRange", "[", 
+     RowBox[{"\"\<A\>\"", ",", "\"\<D\>\""}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.899773401395751*^9, 3.899773401663834*^9}, {
+  3.899774410069428*^9, 3.899774416331492*^9}},
+ CellLabel->"In[52]:=",
+ CellID->1531093376,ExpressionUUID->"cedfd24b-2e4a-4542-a7dc-dd845e3eff93"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"a", "c", "\"A\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "d", "\"B\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "e", "\"C\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"a", "f", "\"D\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "c", "\"A\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "d", "\"B\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "e", "\"C\""},
+    "DirectedEdge"], ",", 
+   TemplateBox[{"b", "f", "\"D\""},
+    "DirectedEdge"]}], "}"}]], "Output",
+ CellChangeTimes->{3.899773402028966*^9, 3.8997744167911863`*^9},
+ CellLabel->"Out[52]=",
+ CellID->905872017,ExpressionUUID->"db4057e1-42d1-4a70-b881-3aaeb070168c"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
 
 Cell[BoxData[
  InterpretationBox[Cell[
@@ -367,8 +968,8 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{700, 770},
-WindowMargins->{{5, Automatic}, {Automatic, 0}},
+WindowSize->{720, 847},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "FaizonZaman/MacroTools"|>,
 CellContext->"Global`",
 FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (June 3, 2023)",
@@ -382,14 +983,14 @@ ExpressionUUID->"662c0246-532c-4826-9c7b-8cc8700825bb"
 (*CellTagsOutline
 CellTagsIndex->{
  "ExtendedExamples"->{
-  Cell[6131, 195, 487, 13, 58, "ExtendedExamplesSection",ExpressionUUID->"b9f902d6-b978-4ed7-a5cd-f34c18fedb56",
+  Cell[18657, 596, 487, 13, 58, "ExtendedExamplesSection",ExpressionUUID->"b9f902d6-b978-4ed7-a5cd-f34c18fedb56",
    CellTags->"ExtendedExamples",
    CellID->439821055]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 12443, 383}
+ {"ExtendedExamples", 31202, 984}
  }
 *)
 (*NotebookFileOutline
@@ -397,109 +998,167 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 110, 1, 74, "ObjectName",ExpressionUUID->"266ff515-f112-47f2-a433-abcd03f6e175",
  CellID->796979669],
-Cell[693, 25, 608, 14, 79, "Usage",ExpressionUUID->"fd6f795d-c0ef-49bb-a3bf-716ac6714e9a",
+Cell[693, 25, 10004, 317, 335, "Usage",ExpressionUUID->"fd6f795d-c0ef-49bb-a3bf-716ac6714e9a",
  CellID->981790544],
-Cell[1304, 41, 97, 1, 27, "Notes",ExpressionUUID->"3095bc7f-543f-4bff-8842-cf09ec9932d2",
+Cell[10700, 344, 97, 1, 27, "Notes",ExpressionUUID->"3095bc7f-543f-4bff-8842-cf09ec9932d2",
  CellID->1836813107]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1438, 47, 459, 13, 40, "SeeAlsoSection",ExpressionUUID->"91c89b12-187b-41c6-a0df-5a6e73e4f5ab",
+Cell[10834, 350, 459, 13, 40, "SeeAlsoSection",ExpressionUUID->"91c89b12-187b-41c6-a0df-5a6e73e4f5ab",
  CellID->1240463724],
-Cell[1900, 62, 1543, 40, 26, "SeeAlso",ExpressionUUID->"40a8fce7-b0cf-417a-be10-a4e301c375f9",
+Cell[11296, 365, 1941, 45, 23, "SeeAlso",ExpressionUUID->"40a8fce7-b0cf-417a-be10-a4e301c375f9",
  CellID->702564192]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3480, 107, 436, 12, 41, "TechNotesSection",ExpressionUUID->"3d666005-9fd7-452d-b562-e1e5fb64b03d",
+Cell[13274, 415, 436, 12, 41, "TechNotesSection",ExpressionUUID->"3d666005-9fd7-452d-b562-e1e5fb64b03d",
  CellID->1131283738],
-Cell[3919, 121, 101, 1, 19, "Tutorials",ExpressionUUID->"f240193b-b6c7-4684-ba14-0aa3e17876c9",
+Cell[13713, 429, 101, 1, 19, "Tutorials",ExpressionUUID->"f240193b-b6c7-4684-ba14-0aa3e17876c9",
  CellID->1813057675]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4057, 127, 118, 1, 40, "MoreAboutSection",ExpressionUUID->"923b31e6-7203-4184-acab-6adfeed150b6",
+Cell[13851, 435, 118, 1, 40, "MoreAboutSection",ExpressionUUID->"923b31e6-7203-4184-acab-6adfeed150b6",
  CellID->1414876442],
-Cell[4178, 130, 100, 1, 19, "MoreAbout",ExpressionUUID->"807ece0c-01f0-4d4b-a933-4627e7d78507",
+Cell[13972, 438, 100, 1, 19, "MoreAbout",ExpressionUUID->"807ece0c-01f0-4d4b-a933-4627e7d78507",
  CellID->741937463]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4315, 136, 473, 13, 40, "RelatedLinksSection",ExpressionUUID->"480eb7c9-9aab-4a21-9a3a-c63e2514b408",
+Cell[14109, 444, 473, 13, 40, "RelatedLinksSection",ExpressionUUID->"480eb7c9-9aab-4a21-9a3a-c63e2514b408",
  CellID->1452886159],
-Cell[4791, 151, 104, 1, 19, "RelatedLinks",ExpressionUUID->"406bd1ff-bc56-4b8f-ba69-73da8d610b04",
+Cell[14585, 459, 104, 1, 19, "RelatedLinks",ExpressionUUID->"406bd1ff-bc56-4b8f-ba69-73da8d610b04",
  CellID->1768607923]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4932, 157, 531, 14, 70, "ExamplesInitializationSection",ExpressionUUID->"dcb03f28-7fde-457d-aa03-94aeff135735",
+Cell[14726, 465, 531, 14, 70, "ExamplesInitializationSection",ExpressionUUID->"dcb03f28-7fde-457d-aa03-94aeff135735",
  CellID->1672203734],
-Cell[5466, 173, 182, 3, 47, "ExampleInitialization",ExpressionUUID->"82faaf0e-eee1-4e13-93c8-17c0d8f3b5e0",
+Cell[15260, 481, 182, 3, 47, "ExampleInitialization",ExpressionUUID->"82faaf0e-eee1-4e13-93c8-17c0d8f3b5e0",
  CellID->609669049]
 }, Open  ]],
-Cell[5663, 179, 443, 12, 73, "PrimaryExamplesSection",ExpressionUUID->"4c2339f9-b5e0-4e3a-be47-69da443c05c6",
+Cell[CellGroupData[{
+Cell[15479, 489, 443, 12, 73, "PrimaryExamplesSection",ExpressionUUID->"4c2339f9-b5e0-4e3a-be47-69da443c05c6",
  CellID->1063226706],
 Cell[CellGroupData[{
-Cell[6131, 195, 487, 13, 58, "ExtendedExamplesSection",ExpressionUUID->"b9f902d6-b978-4ed7-a5cd-f34c18fedb56",
+Cell[15947, 505, 417, 10, 27, "Input",ExpressionUUID->"1576ea58-a9ec-464b-8cea-7d10f94cae3c",
+ CellID->545142568],
+Cell[16367, 517, 452, 13, 35, "Output",ExpressionUUID->"c60eee3c-fe37-47cb-b80c-97fc0bc7faf2",
+ CellID->797774790]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16856, 535, 371, 9, 27, "Input",ExpressionUUID->"69826bcf-b1e7-4142-8c39-5347943b2228",
+ CellID->1460487309],
+Cell[17230, 546, 439, 13, 34, "Output",ExpressionUUID->"7855d74a-75f5-4d0f-b676-7385407dc55c",
+ CellID->1103931261]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17706, 564, 453, 11, 27, "Input",ExpressionUUID->"f762c39c-0f14-4ac5-92b1-55aa4eadf2e5",
+ CellID->868969178],
+Cell[18162, 577, 446, 13, 35, "Output",ExpressionUUID->"0382b0e9-d4e2-4e59-af26-02390f1f57ec",
+ CellID->1399044447]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18657, 596, 487, 13, 58, "ExtendedExamplesSection",ExpressionUUID->"b9f902d6-b978-4ed7-a5cd-f34c18fedb56",
  CellTags->"ExtendedExamples",
  CellID->439821055],
-Cell[6621, 210, 241, 5, 35, "ExampleSection",ExpressionUUID->"29c9087f-936c-4e7c-8b23-0f37e5d5aa55",
+Cell[CellGroupData[{
+Cell[19169, 613, 241, 5, 35, "ExampleSection",ExpressionUUID->"29c9087f-936c-4e7c-8b23-0f37e5d5aa55",
  CellID->433758411],
-Cell[6865, 217, 265, 5, 23, "ExampleSection",ExpressionUUID->"d58af7ab-a300-47df-90d3-8e3f4ce25cc1",
+Cell[19413, 620, 181, 2, 24, "ExampleText",ExpressionUUID->"6eed951e-8a09-4955-977c-ce4b748d0f53",
+ CellID->1618322512],
+Cell[CellGroupData[{
+Cell[19619, 626, 468, 12, 27, "Input",ExpressionUUID->"b9a79a43-5dde-4f63-a3e4-00161e7ac27a",
+ CellID->845620628],
+Cell[20090, 640, 688, 21, 35, "Output",ExpressionUUID->"276099e4-ff09-4165-b347-8795953e212c",
+ CellID->963656506]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20815, 666, 243, 5, 20, "ExampleDelimiter",ExpressionUUID->"61305b72-e946-4aa0-aece-c304db9765bd",
+ CellID->1169100813],
+Cell[21061, 673, 192, 2, 24, "ExampleText",ExpressionUUID->"b6a8ec47-538b-4e0a-8ed5-68e914aeedf7",
+ CellID->2052640109],
+Cell[CellGroupData[{
+Cell[21278, 679, 460, 11, 27, "Input",ExpressionUUID->"17d99ed7-907b-4c36-acab-f63fdee06ea3",
+ CellID->1510358467],
+Cell[21741, 692, 717, 22, 35, "Output",ExpressionUUID->"78126d63-8eaf-43bf-92b8-412c621564ba",
+ CellID->756297098]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22507, 720, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"21b6ac76-d136-40e1-b7fe-c72cc1a06e1c",
+ CellID->858812825],
+Cell[22752, 727, 183, 2, 24, "ExampleText",ExpressionUUID->"c4b96d2c-7760-46f0-b9aa-dfcc8ac632dd",
+ CellID->1920461631],
+Cell[CellGroupData[{
+Cell[22960, 733, 563, 14, 27, "Input",ExpressionUUID->"513606f0-81f6-4da2-b023-a569609279c8",
+ CellID->1535085520],
+Cell[23526, 749, 723, 21, 35, "Output",ExpressionUUID->"a9620c96-bad9-45a6-939e-9302288ba6bd",
+ CellID->2133972799]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24286, 775, 574, 15, 27, "Input",ExpressionUUID->"cedfd24b-2e4a-4542-a7dc-dd845e3eff93",
+ CellID->1531093376],
+Cell[24863, 792, 722, 21, 35, "Output",ExpressionUUID->"db4057e1-42d1-4a70-b881-3aaeb070168c",
+ CellID->905872017]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[25624, 818, 265, 5, 35, "ExampleSection",ExpressionUUID->"d58af7ab-a300-47df-90d3-8e3f4ce25cc1",
  CellID->1618115759],
 Cell[CellGroupData[{
-Cell[7155, 226, 244, 5, 23, "ExampleSection",ExpressionUUID->"40444f35-2b5b-4cc4-b29b-6cb54fd5ebbc",
+Cell[25914, 827, 244, 5, 23, "ExampleSection",ExpressionUUID->"40444f35-2b5b-4cc4-b29b-6cb54fd5ebbc",
  CellID->2086139552],
-Cell[7402, 233, 247, 5, 26, "ExampleSubsection",ExpressionUUID->"7131f1c5-785e-4719-b66e-884796aed722",
+Cell[26161, 834, 247, 5, 26, "ExampleSubsection",ExpressionUUID->"7131f1c5-785e-4719-b66e-884796aed722",
  CellID->1929429542],
-Cell[7652, 240, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"bb82b086-48e4-4647-a3a5-3535dd071d52",
+Cell[26411, 841, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"bb82b086-48e4-4647-a3a5-3535dd071d52",
  CellID->919242694]
 }, Open  ]],
-Cell[7913, 248, 248, 5, 35, "ExampleSection",ExpressionUUID->"906ed385-a9f1-4f3d-8b8f-b31631ce706a",
+Cell[26672, 849, 248, 5, 35, "ExampleSection",ExpressionUUID->"906ed385-a9f1-4f3d-8b8f-b31631ce706a",
  CellID->714601540],
-Cell[8164, 255, 259, 5, 23, "ExampleSection",ExpressionUUID->"6b9bed92-b6f9-4b5d-98aa-fcdfdfef53b3",
+Cell[26923, 856, 259, 5, 23, "ExampleSection",ExpressionUUID->"6b9bed92-b6f9-4b5d-98aa-fcdfdfef53b3",
  CellID->1579528756],
-Cell[8426, 262, 252, 5, 23, "ExampleSection",ExpressionUUID->"ccdeb382-c17a-442b-bba6-48cd8f699de4",
+Cell[27185, 863, 252, 5, 23, "ExampleSection",ExpressionUUID->"ccdeb382-c17a-442b-bba6-48cd8f699de4",
  CellID->2094441525],
-Cell[8681, 269, 257, 5, 23, "ExampleSection",ExpressionUUID->"1339f172-46ec-42c7-9159-4970662e3472",
+Cell[27440, 870, 257, 5, 23, "ExampleSection",ExpressionUUID->"1339f172-46ec-42c7-9159-4970662e3472",
  CellID->1874252698],
-Cell[8941, 276, 250, 5, 23, "ExampleSection",ExpressionUUID->"3cd636d6-1d7d-4289-bbdf-f92cbec755e6",
+Cell[27700, 877, 250, 5, 23, "ExampleSection",ExpressionUUID->"3cd636d6-1d7d-4289-bbdf-f92cbec755e6",
  CellID->1274961090]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9228, 286, 110, 1, 72, "MetadataSection",ExpressionUUID->"16dcb8b7-0724-4094-afdb-e560ded91c7e",
+Cell[27987, 887, 110, 1, 72, "MetadataSection",ExpressionUUID->"16dcb8b7-0724-4094-afdb-e560ded91c7e",
  CellID->679209864],
-Cell[9341, 289, 477, 12, 26, "History",ExpressionUUID->"f3f99d80-e1b1-4850-adbd-aafb7bb6679b",
+Cell[28100, 890, 477, 12, 26, "History",ExpressionUUID->"f3f99d80-e1b1-4850-adbd-aafb7bb6679b",
  CellID->1604600443],
 Cell[CellGroupData[{
-Cell[9843, 305, 484, 13, 21, "CategorizationSection",ExpressionUUID->"60e363fa-3294-476a-83e2-2e161ed2436e",
+Cell[28602, 906, 484, 13, 21, "CategorizationSection",ExpressionUUID->"60e363fa-3294-476a-83e2-2e161ed2436e",
  CellID->420006475],
-Cell[10330, 320, 134, 2, 35, "Categorization",ExpressionUUID->"a5c8dc74-56d5-476a-a2bd-d670167d6a4d",
+Cell[29089, 921, 134, 2, 35, "Categorization",ExpressionUUID->"a5c8dc74-56d5-476a-a2bd-d670167d6a4d",
  CellID->270077636],
-Cell[10467, 324, 151, 2, 35, "Categorization",ExpressionUUID->"7b324b2e-97a0-4602-9272-20084a828a76",
+Cell[29226, 925, 151, 2, 35, "Categorization",ExpressionUUID->"7b324b2e-97a0-4602-9272-20084a828a76",
  CellID->1051300742],
-Cell[10621, 328, 148, 2, 35, "Categorization",ExpressionUUID->"2f48ba34-17b8-4b44-80c6-8305033d94d4",
+Cell[29380, 929, 148, 2, 35, "Categorization",ExpressionUUID->"2f48ba34-17b8-4b44-80c6-8305033d94d4",
  CellID->1863606925],
-Cell[10772, 332, 160, 2, 35, "Categorization",ExpressionUUID->"191acbb5-5b62-412f-9587-5bc93f0d056a",
+Cell[29531, 933, 160, 2, 35, "Categorization",ExpressionUUID->"191acbb5-5b62-412f-9587-5bc93f0d056a",
  CellID->592596980]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[10969, 339, 110, 1, 21, "KeywordsSection",ExpressionUUID->"7a07a36b-f6f4-47c2-be4d-ef6c6a263c4b",
+Cell[29728, 940, 110, 1, 21, "KeywordsSection",ExpressionUUID->"7a07a36b-f6f4-47c2-be4d-ef6c6a263c4b",
  CellID->818133967],
-Cell[11082, 342, 98, 1, 70, "Keywords",ExpressionUUID->"0965143a-cab7-443b-9e19-21017d1ba42c",
+Cell[29841, 943, 98, 1, 70, "Keywords",ExpressionUUID->"0965143a-cab7-443b-9e19-21017d1ba42c",
  CellID->39791628]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[11217, 348, 119, 1, 21, "TemplatesSection",ExpressionUUID->"6421ac44-2cac-4dc2-a11a-98b8a0d0cf40",
+Cell[29976, 949, 119, 1, 21, "TemplatesSection",ExpressionUUID->"6421ac44-2cac-4dc2-a11a-98b8a0d0cf40",
  CellID->910477579],
-Cell[11339, 351, 149, 2, 70, "Template",ExpressionUUID->"901de460-0ede-4301-bf01-78059877bcb4",
+Cell[30098, 952, 149, 2, 70, "Template",ExpressionUUID->"901de460-0ede-4301-bf01-78059877bcb4",
  CellID->1575685378],
-Cell[11491, 355, 138, 2, 70, "Template",ExpressionUUID->"b47807f2-a0cd-485f-b0e3-ed60e493c465",
+Cell[30250, 956, 138, 2, 70, "Template",ExpressionUUID->"b47807f2-a0cd-485f-b0e3-ed60e493c465",
  CellID->1923296889],
-Cell[11632, 359, 135, 2, 70, "Template",ExpressionUUID->"8c3a5a7f-5330-4df2-b2ff-3b7b465852c5",
+Cell[30391, 960, 135, 2, 70, "Template",ExpressionUUID->"8c3a5a7f-5330-4df2-b2ff-3b7b465852c5",
  CellID->926958779],
-Cell[11770, 363, 138, 2, 70, "Template",ExpressionUUID->"9d2cb060-2cd8-4b90-88d7-42b665bb62a4",
+Cell[30529, 964, 138, 2, 70, "Template",ExpressionUUID->"9d2cb060-2cd8-4b90-88d7-42b665bb62a4",
  CellID->1549823315]
 }, Closed]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
