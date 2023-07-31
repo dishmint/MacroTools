@@ -723,7 +723,7 @@ changed as desired. Use additional cells and cell styles as needed.",
 Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  CellChangeTimes->{{3.899734226134605*^9, 3.899734226797243*^9}},
- CellLabel->"In[7]:=",
+ CellLabel->"In[12]:=",
  CellID->734605968,ExpressionUUID->"a5b79ebe-19b9-434d-83c1-f04186321250"],
 
 Cell[CellGroupData[{
@@ -1286,9 +1286,89 @@ Cell[BoxData[
  CellID->1499161491,ExpressionUUID->"411cdc2d-5e82-4449-8662-6fec7811bb15"]
 }, Open  ]],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.899778490207631*^9, 3.8997784935383873`*^9}},
- CellID->476526808,ExpressionUUID->"2cf93bd2-2c1b-4fa9-aac8-a44f6622b093"]
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"Column", "@*", 
+    RowBox[{"ProcessBy", "[", 
+     RowBox[{"List", "[", 
+      RowBox[{"DirectedFan", ",", "UndirectedFan", ",", 
+       RowBox[{"DirectedEdge", "/*", "EdgeFan"}]}], "]"}], "]"}]}], ")"}], 
+  "[", 
+  RowBox[{"a", ",", 
+   RowBox[{"Range", "[", "3", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.899779302704056*^9, 3.899779357130657*^9}, {
+  3.8997795201657877`*^9, 3.8997795804921293`*^9}},
+ CellLabel->"In[8]:=",
+ CellID->1810587410,ExpressionUUID->"77dbbe10-5f2b-4d7f-b0ae-646f03cdf123"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
+       RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
+       RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}]},
+    {
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a", "\[UndirectedEdge]", "1"}], ",", 
+       RowBox[{"a", "\[UndirectedEdge]", "2"}], ",", 
+       RowBox[{"a", "\[UndirectedEdge]", "3"}]}], "}"}]},
+    {
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
+       RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
+       RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{
+  3.899779328857923*^9, 3.899779482349666*^9, {3.899779522069704*^9, 
+   3.8997795813139133`*^9}},
+ CellLabel->"Out[8]=",
+ CellID->1832242656,ExpressionUUID->"48c7348c-f367-4ff2-8d0a-6932e5fa93d0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ProcessBy", "[", 
+   RowBox[{"{", 
+    RowBox[{"f1", ",", "f2", ",", "f3"}], "}"}], "]"}], "[", 
+  RowBox[{"a", ",", 
+   RowBox[{"Range", "[", "3", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.899779399938632*^9, 3.899779434082562*^9}},
+ CellLabel->"In[4]:=",
+ CellID->2078970710,ExpressionUUID->"f26a0440-6dde-4039-b63c-92457bbb06be"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"f1", "[", 
+    RowBox[{"a", ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "]"}], ",", 
+   RowBox[{"f2", "[", 
+    RowBox[{"a", ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "]"}], ",", 
+   RowBox[{"f3", "[", 
+    RowBox[{"a", ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.899779362278582*^9, 3.899779403730966*^9, 
+  3.899779434824462*^9, 3.899779489562508*^9},
+ CellLabel->"Out[4]=",
+ CellID->1584597455,ExpressionUUID->"95b702d1-2232-4cef-8d8d-ead8cc886ed2"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3142,7 +3222,6 @@ Cell[BoxData[
                  BoxData[
                   FrameBox[
                    Cell[
-                    
                     TextData[{
                     "Choose this option if your paclet directly does any of \
 the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\

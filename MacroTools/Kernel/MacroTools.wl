@@ -103,8 +103,8 @@ Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
 
 
 (* ProcessBy *)
-ProcessBy[p_[funcs__]][target_] := Through[p[funcs][target]]
-ProcessBy[p_[funcs__], h_][target_] := Through[p[funcs][target], h]
+ProcessBy[p_[funcs__]][target__] := Through[p[funcs][target]]
+ProcessBy[p_[funcs__], h_][target__] := Through[p[funcs][target], h]
 
 End[] (* End `Private` *)
 
