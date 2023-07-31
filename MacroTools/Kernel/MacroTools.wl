@@ -14,6 +14,7 @@ TaggedUndirectedFan::usage = "TaggedUndirectedFan[p, c1] returns a list of undir
 TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edge type e from p to each ci with integer tags"
 
 Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
+ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 (* TODO: AgendaTitle       *)
 (* TODO: FlattenOn         *)
 (* TODO: PartsOdd          *)
@@ -99,6 +100,11 @@ TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List, tags_List])] /;
 
 (* Optioned *)
 Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
+
+
+(* ProcessBy *)
+ProcessBy[p_[funcs__]][target_] := Through[p[funcs][target]]
+ProcessBy[p_[funcs__], h_][target_] := Through[p[funcs][target], h]
 
 End[] (* End `Private` *)
 

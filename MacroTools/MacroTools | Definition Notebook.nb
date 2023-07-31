@@ -723,7 +723,7 @@ changed as desired. Use additional cells and cell styles as needed.",
 Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  CellChangeTimes->{{3.899734226134605*^9, 3.899734226797243*^9}},
- CellLabel->"In[80]:=",
+ CellLabel->"In[7]:=",
  CellID->734605968,ExpressionUUID->"a5b79ebe-19b9-434d-83c1-f04186321250"],
 
 Cell[CellGroupData[{
@@ -1284,7 +1284,11 @@ Cell[BoxData[
  CellChangeTimes->{3.899776969404214*^9},
  CellLabel->"Out[3]=",
  CellID->1499161491,ExpressionUUID->"411cdc2d-5e82-4449-8662-6fec7811bb15"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.899778490207631*^9, 3.8997784935383873`*^9}},
+ CellID->476526808,ExpressionUUID->"2cf93bd2-2c1b-4fa9-aac8-a44f6622b093"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2927,8 +2931,8 @@ contexts.", "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins ->
                    20, FrameStyle -> GrayLevel[0.9], RoundingRadius -> 5, 
                    ImageSize -> {
                     Scaled[0.65], Automatic}]], "MoreInfoText", Deletable -> 
-                 True, 
-                 CellTags -> {"SectionMoreInfoDisclosuresWLSystemSymbols"}, 
+                 True, CellTags -> {
+                  "SectionMoreInfoDisclosuresWLSystemSymbols"}, 
                  CellMargins -> {{66, 66}, {15, 15}}], 
                 HoldComplete[
                  EvaluationCell[]], "Click for more information"}, 
