@@ -85,6 +85,7 @@ TaggedUndirectedFan[nodes_List] := TaggedUndirectedFan[First[nodes], Rest[nodes]
 TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List])] := TaggedEdgeFan[edge[First[nodes], Rest[nodes]]]
 
 (* With Explicit Tags *)
+(* TODO: #1 replace Flatten with Catenate *)
 TaggedDirectedFan[parents_List,children_List, tags_List] /; (Length[children] === Length[tags]) := Flatten[ (parent |-> TaggedDirectedFan[parent, children, tags]) /@ parents ]
 TaggedUndirectedFan[parents_List,children_List, tags_List] /; (Length[children] === Length[tags]) := Flatten[ (parent |-> TaggedUndirectedFan[parent, children, tags]) /@ parents ]
 TaggedEdgeFan[((edge: DirectedEdge|UndirectedEdge)[parents_List,children_List, tags_List])] /; (Length[children] === Length[tags]) := Flatten[ (parent |-> TaggedEdgeFan[edge[parent, children, tags]]) /@ parents ]
