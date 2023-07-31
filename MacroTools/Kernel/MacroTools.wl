@@ -13,6 +13,20 @@ TaggedDirectedFan::usage = "TaggedDirectedFan[p, {c1, c2, ...}] returns a list o
 TaggedUndirectedFan::usage = "TaggedUndirectedFan[p, c1] returns a list of undirected edges from p to each ci with integer tags"
 TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edge type e from p to each ci with integer tags"
 
+Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
+(* TODO: AgendaTitle       *)
+(* TODO: FlattenOn         *)
+(* TODO: PartsOdd          *)
+(* TODO: PartsEven         *)
+(* TODO: ProgressReport    *)
+(* TODO: FilterRulesBy     *)
+(* TODO: NormalFixedPoint  *)
+(* TODO: ItemCases         *)
+
+(* TODO: $SystemDocumentationDirectory  *)
+(* TODO: $ExampleDataDirectory          *)
+(* TODO: FindExampleDataFiles           *)
+
 Begin["`Private`"]
 
 (* Map functions *)
@@ -81,6 +95,10 @@ TaggedEdgeFan[((edge: DirectedEdge|UndirectedEdge)[parent_,children_List, tags_L
 TaggedDirectedFan[nodes_List, tags_List] /; ((Length[nodes] - Length[tags]) === 1) := TaggedDirectedFan[First[nodes], Rest[nodes], tags]
 TaggedUndirectedFan[nodes_List, tags_List] /; ((Length[nodes] - Length[tags]) === 1) := TaggedUndirectedFan[First[nodes], Rest[nodes], tags]
 TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List, tags_List])] /; ((Length[nodes] - Length[tags]) === 1) := TaggedEdgeFan[edge[First[nodes], Rest[nodes], tags]]
+
+
+(* Optioned *)
+Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
 
 End[] (* End `Private` *)
 
