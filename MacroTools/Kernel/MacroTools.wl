@@ -15,7 +15,7 @@ TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edg
 
 Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
 ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
-(* TODO: AgendaTitle       *)
+(* TODO: #2 AgendaTitle       *)
 (* TODO: FlattenOn         *)
 (* TODO: PartsOdd          *)
 (* TODO: PartsEven         *)
