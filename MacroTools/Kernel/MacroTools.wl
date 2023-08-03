@@ -17,7 +17,7 @@ Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
 ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
 
-(* TODO: FlattenOn         *)
+(* TODO: #5 FlattenOn         *)
 (* TODO: PartsOdd          *)
 (* TODO: PartsEven         *)
 (* TODO: ProgressReport    *)
