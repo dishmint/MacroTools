@@ -16,8 +16,8 @@ TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edg
 Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
 ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
+FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, level]&\nFlattenOn[level, head] represents an operator form of Flatten[#, level, head]&"
 
-(* TODO: #5 FlattenOn         *)
 (* TODO: PartsOdd          *)
 (* TODO: PartsEven         *)
 (* TODO: ProgressReport    *)
@@ -99,6 +99,7 @@ TaggedDirectedFan[nodes_List, tags_List] /; ((Length[nodes] - Length[tags]) === 
 TaggedUndirectedFan[nodes_List, tags_List] /; ((Length[nodes] - Length[tags]) === 1) := TaggedUndirectedFan[First[nodes], Rest[nodes], tags]
 TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List, tags_List])] /; ((Length[nodes] - Length[tags]) === 1) := TaggedEdgeFan[edge[First[nodes], Rest[nodes], tags]]
 
+(* Operator forms *)
 
 (* Optioned *)
 Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
@@ -107,6 +108,10 @@ Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
 (* ProcessBy *)
 ProcessBy[p_[funcs__]][target__] := Through[p[funcs][target]]
 ProcessBy[p_[funcs__], h_][target__] := Through[p[funcs][target], h]
+
+(* FlattenOn *)
+FlattenOn[level_][expr_]:=Flatten[expr, level]
+FlattenOn[level_, head_][expr_]:=Flatten[expr, level, head]
 
 (* Notebook functions *)
 Options[AgendaTitle]={
