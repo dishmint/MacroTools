@@ -877,143 +877,10 @@ Cell[BoxData[
  CellID->818262007,ExpressionUUID->"2bf48edc-fa22-4ef7-8b4a-6b53a811bdd7"]
 }, Open  ]],
 
-Cell["Fan edges from parents to children.", "Text",
- CellChangeTimes->{{3.899738337283428*^9, 3.899738354562525*^9}},
+Cell["Fan edges from parents to children:", "Text",
+ CellChangeTimes->{{3.899738337283428*^9, 3.899738354562525*^9}, {
+  3.8998531445684977`*^9, 3.8998531451352262`*^9}},
  CellID->1308708700,ExpressionUUID->"6bdf466e-1fc8-4154-9c4e-de5f19b42828"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Through", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"DirectedFan", ",", "UndirectedFan", ",", 
-     RowBox[{"DirectedEdge", "/*", "EdgeFan"}]}], "}"}], "[", 
-   RowBox[{"a", ",", 
-    RowBox[{"Range", "[", "3", "]"}]}], "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.899734498140066*^9, 3.8997345056970587`*^9}, {
-  3.8997350992897167`*^9, 3.899735160954927*^9}},
- CellLabel->"In[4]:=",
- CellID->725040554,ExpressionUUID->"93c51907-3746-4600-a3a3-d80d40bb4475"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[UndirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{
-  3.899734505940291*^9, {3.899735144436078*^9, 3.899735161534567*^9}},
- CellLabel->"Out[4]=",
- CellID->1097778782,ExpressionUUID->"92667b68-5726-4c7e-977d-fd0dd7d44d8c"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Through", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"DirectedFan", ",", "UndirectedFan", ",", 
-     RowBox[{"DirectedEdge", "/*", "EdgeFan"}]}], "}"}], "[", 
-   RowBox[{"{", 
-    RowBox[{"a", ",", "1", ",", "2", ",", "3"}], "}"}], "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.8997354253074017`*^9, 3.899735425687063*^9}},
- CellLabel->"In[3]:=",
- CellID->1668590303,ExpressionUUID->"89f49a01-c660-4369-bac4-72e00306c328"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[UndirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.899735426146744*^9, 3.899735497287196*^9},
- CellLabel->"Out[3]=",
- CellID->23914353,ExpressionUUID->"b9c9f82d-68cf-4aa2-b2d9-2becf5a0dd61"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Through", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"DirectedFan", ",", "UndirectedFan", ",", 
-     RowBox[{"DirectedEdge", "/*", "EdgeFan"}]}], "}"}], "[", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.899735537682605*^9, 3.89973554326194*^9}},
- CellLabel->"In[3]:=",
- CellID->1027429264,ExpressionUUID->"7f785b69-f2db-430b-999a-795094200da2"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "3"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[UndirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[UndirectedEdge]", "3"}], ",", 
-     RowBox[{"b", "\[UndirectedEdge]", "1"}], ",", 
-     RowBox[{"b", "\[UndirectedEdge]", "2"}], ",", 
-     RowBox[{"b", "\[UndirectedEdge]", "3"}], ",", 
-     RowBox[{"c", "\[UndirectedEdge]", "1"}], ",", 
-     RowBox[{"c", "\[UndirectedEdge]", "2"}], ",", 
-     RowBox[{"c", "\[UndirectedEdge]", "3"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"a", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"a", "\[DirectedEdge]", "3"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"b", "\[DirectedEdge]", "3"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "1"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "2"}], ",", 
-     RowBox[{"c", "\[DirectedEdge]", "3"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.899735543783207*^9, 3.899735590080226*^9},
- CellLabel->"Out[3]=",
- CellID->1330957942,ExpressionUUID->"2ebdc785-e56d-46c4-aae8-24d8f2728dfb"]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1046,55 +913,6 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"TaggedDirectedFan", "[", 
-  RowBox[{"a", ",", 
-   RowBox[{"Range", "[", "3", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.899736107687913*^9, 3.899736110233465*^9}, {
-  3.89973619839399*^9, 3.899736218350596*^9}},
- CellLabel->"In[3]:=",
- CellID->1426146634,ExpressionUUID->"c6c6d283-8f68-4066-948a-6e6238d58c81"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"a", "1", "1"},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"a", "2", "2"},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"a", "3", "3"},
-    "DirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.8997362187648363`*^9},
- CellLabel->"Out[3]=",
- CellID->1526620214,ExpressionUUID->"feb485dd-6d75-48df-9a1c-a1fc9354ff3b"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedUndirectedFan", "[", 
-  RowBox[{"b", ",", 
-   RowBox[{"Range", "[", "3", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.8997362273755493`*^9, 3.8997362333522863`*^9}},
- CellLabel->"In[4]:=",
- CellID->1436495996,ExpressionUUID->"f79ee5ab-1d12-44c4-ba71-3fb01a255d3f"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"b", "1", "1"},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"b", "2", "2"},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"b", "3", "3"},
-    "UndirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.899736233737015*^9},
- CellLabel->"Out[4]=",
- CellID->977126466,ExpressionUUID->"6f961b5d-4de0-48ff-a7a6-820ab022dbe5"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"TaggedEdgeFan", "[", 
   RowBox[{"UndirectedEdge", "[", 
    RowBox[{"c", ",", 
@@ -1117,141 +935,11 @@ Cell[BoxData[
  CellID->492368943,ExpressionUUID->"6d9965d7-3c8d-4424-a42e-f5f6ebb8f190"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedEdgeFan", "[", 
-  RowBox[{"UndirectedEdge", "[", 
-   RowBox[{"c", ",", 
-    RowBox[{"Range", "[", "3", "]"}], ",", 
-    RowBox[{"CharacterRange", "[", 
-     RowBox[{"\"\<A\>\"", ",", "\"\<C\>\""}], "]"}]}], "]"}], "]"}]], "Input",
- 
- CellChangeTimes->{{3.8997366878882513`*^9, 3.8997367151497087`*^9}},
- CellLabel->"In[3]:=",
- CellID->1103035258,ExpressionUUID->"3ca23e5c-0a7a-4d2d-877c-22ae39022534"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"c", "1", "\"A\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"c", "2", "\"B\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"c", "3", "\"C\""},
-    "UndirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{{3.899736702664693*^9, 3.8997367155079117`*^9}, 
-   3.899736755210741*^9},
- CellLabel->"Out[3]=",
- CellID->827164562,ExpressionUUID->"9763e218-2dad-4fbf-8c2e-0dffb3a48575"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedEdgeFan", "[", 
-  RowBox[{"DirectedEdge", "[", 
-   RowBox[{"c", ",", 
-    RowBox[{"Range", "[", "3", "]"}], ",", 
-    RowBox[{"CharacterRange", "[", 
-     RowBox[{"\"\<A\>\"", ",", "\"\<C\>\""}], "]"}]}], "]"}], "]"}]], "Input",
- 
- CellChangeTimes->{{3.899736763120823*^9, 3.8997367638636923`*^9}},
- CellLabel->"In[4]:=",
- CellID->977000351,ExpressionUUID->"9c928089-d496-4f1f-a671-9a7fa56d08b4"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"c", "1", "\"A\""},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"c", "2", "\"B\""},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"c", "3", "\"C\""},
-    "DirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.899736764827792*^9},
- CellLabel->"Out[4]=",
- CellID->1762262894,ExpressionUUID->"4b108a79-a735-46e6-b462-501f2b0c62c5"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedDirectedFan", "[", 
-  RowBox[{"c", ",", 
-   RowBox[{"Range", "[", "3", "]"}], ",", 
-   RowBox[{"CharacterRange", "[", 
-    RowBox[{"\"\<A\>\"", ",", "\"\<C\>\""}], "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.899736763120823*^9, 3.8997367785686207`*^9}},
- CellLabel->"In[5]:=",
- CellID->1746380275,ExpressionUUID->"bf2ec85a-e7e0-4ff0-b7e7-14dc2cfd9926"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"c", "1", "\"A\""},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"c", "2", "\"B\""},
-    "DirectedEdge"], ",", 
-   TemplateBox[{"c", "3", "\"C\""},
-    "DirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.8997367791901093`*^9},
- CellLabel->"Out[5]=",
- CellID->620102401,ExpressionUUID->"f0408e3d-c547-4bb4-ba37-777ee9b93280"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedUndirectedFan", "[", 
-  RowBox[{"c", ",", 
-   RowBox[{"Range", "[", "3", "]"}], ",", 
-   RowBox[{"CharacterRange", "[", 
-    RowBox[{"\"\<A\>\"", ",", "\"\<C\>\""}], "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.899736763120823*^9, 3.899736784572748*^9}},
- CellLabel->"In[6]:=",
- CellID->322914716,ExpressionUUID->"2fd27d4c-c9e4-4383-bc69-517ad986225f"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"c", "1", "\"A\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"c", "2", "\"B\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"c", "3", "\"C\""},
-    "UndirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.899736786643449*^9},
- CellLabel->"Out[6]=",
- CellID->770402069,ExpressionUUID->"fe82626e-72f4-48cc-9abd-7c951453cd96"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"TaggedUndirectedFan", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"g", ",", "1", ",", "2", ",", "3"}], "}"}], ",", 
-   RowBox[{"CharacterRange", "[", 
-    RowBox[{"\"\<A\>\"", ",", "\"\<C\>\""}], "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.899736807258609*^9, 3.899736809660096*^9}},
- CellLabel->"In[7]:=",
- CellID->958748628,ExpressionUUID->"1764edec-0ec6-4410-9754-add536c7d728"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   TemplateBox[{"g", "1", "\"A\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"g", "2", "\"B\""},
-    "UndirectedEdge"], ",", 
-   TemplateBox[{"g", "3", "\"C\""},
-    "UndirectedEdge"]}], "}"}]], "Output",
- CellChangeTimes->{3.899736811125113*^9},
- CellLabel->"Out[7]=",
- CellID->1267049327,ExpressionUUID->"e1598188-6f17-4283-8c31-7554537be4c1"]
-}, Open  ]],
+Cell["\<\
+Specify a function and its options before applying it to an expression:\
+\>", "ExampleText",
+ CellChangeTimes->{{3.8998531164901*^9, 3.8998531415314693`*^9}},
+ CellID->503179353,ExpressionUUID->"bca87d14-6782-40fc-ba0f-9d8a72ab36f1"],
 
 Cell[CellGroupData[{
 
@@ -1285,6 +973,10 @@ Cell[BoxData[
  CellLabel->"Out[3]=",
  CellID->1499161491,ExpressionUUID->"411cdc2d-5e82-4449-8662-6fec7811bb15"]
 }, Open  ]],
+
+Cell["Process an expression by a set of functions:", "ExampleText",
+ CellChangeTimes->{{3.899853158113372*^9, 3.8998531892046757`*^9}},
+ CellID->2101145131,ExpressionUUID->"e9b33e9b-58f0-48da-a565-690aa85b2cc4"],
 
 Cell[CellGroupData[{
 
@@ -3222,6 +2914,7 @@ Cell[BoxData[
                  BoxData[
                   FrameBox[
                    Cell[
+                    
                     TextData[{
                     "Choose this option if your paclet directly does any of \
 the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\
@@ -3408,7 +3101,7 @@ Cell["Additional information about limitations, issues, etc.", "Text",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{720, 847},
+WindowSize->{1440, 847},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"MacroTools | Definition Notebook",
 TaggingRules->{
