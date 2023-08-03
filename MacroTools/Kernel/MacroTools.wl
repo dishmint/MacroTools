@@ -16,6 +16,7 @@ TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edg
 Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
 ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 (* TODO: #2 AgendaTitle       *)
+AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
 (* TODO: FlattenOn         *)
 (* TODO: PartsOdd          *)
 (* TODO: PartsEven         *)
@@ -106,6 +107,24 @@ Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
 (* ProcessBy *)
 ProcessBy[p_[funcs__]][target__] := Through[p[funcs][target]]
 ProcessBy[p_[funcs__], h_][target__] := Through[p[funcs][target], h]
+
+(* Notebook functions *)
+Options[AgendaTitle]={
+	"SectionStyle"->"Chapter",
+	"Content"->MakeBoxes[AgendaTitle[Tomorrow]],
+	"Range"-> Today,
+	"DateStringFormat"->{"DayNameShort"," ","DayShort"," ","MonthNameShort"," ","Year"}
+};
+AgendaTitle[date_DateObject,OptionsPattern[AgendaTitle]]:=NotebookWrite[
+    InputNotebook[], 
+    {
+        Cell[DateString[date,OptionValue["DateStringFormat"]],OptionValue["SectionStyle"]],
+        Cell[BoxData[OptionValue["Content"]],"Input"]
+        }
+    ]
+AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,{date}]
+AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,dates]
+AgendaTitle[datespec:{__String},opts:OptionsPattern[AgendaTitle]]:=AgendaTitle[OptionValue["Range"],Sequence[opts,"DateStringFormat"->datespec]]
 
 End[] (* End `Private` *)
 

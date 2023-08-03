@@ -723,7 +723,7 @@ changed as desired. Use additional cells and cell styles as needed.",
 Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  CellChangeTimes->{{3.899734226134605*^9, 3.899734226797243*^9}},
- CellLabel->"In[12]:=",
+ CellLabel->"In[9]:=",
  CellID->734605968,ExpressionUUID->"a5b79ebe-19b9-434d-83c1-f04186321250"],
 
 Cell[CellGroupData[{
@@ -771,7 +771,7 @@ excluded using ",
  TaggingRules->{"TemplateGroupName" -> "ExampleInitialization"},
  CellTags->{
   "ExampleInitialization", "Initialization for Examples", "TemplateCellGroup"},
- CellLabel->"In[3]:=",
+ CellLabel->"In[1]:=",
  CellID->468286435,ExpressionUUID->"17ead820-e1e1-480d-bbf5-6af438ebf7b8"],
 
 Cell[BoxData[
@@ -3101,7 +3101,7 @@ Cell["Additional information about limitations, issues, etc.", "Text",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440, 847},
+WindowSize->{1351, 847},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"MacroTools | Definition Notebook",
 TaggingRules->{
