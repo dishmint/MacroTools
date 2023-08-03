@@ -723,7 +723,7 @@ changed as desired. Use additional cells and cell styles as needed.",
 Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  CellChangeTimes->{{3.899734226134605*^9, 3.899734226797243*^9}},
- CellLabel->"In[4]:=",
+ CellLabel->"In[3]:=",
  CellID->734605968,ExpressionUUID->"a5b79ebe-19b9-434d-83c1-f04186321250"],
 
 Cell[CellGroupData[{
@@ -1060,6 +1060,34 @@ Cell[BoxData[
   3.899779434824462*^9, 3.899779489562508*^9},
  CellLabel->"Out[4]=",
  CellID->1584597455,ExpressionUUID->"95b702d1-2232-4cef-8d8d-ead8cc886ed2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FlattenOn", "[", "1", "]"}], "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", "1", "}"}], ",", 
+    RowBox[{"{", "2", "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", 
+      RowBox[{"{", 
+       RowBox[{"4", ",", "5"}], "}"}]}], "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.900029974367564*^9, 3.900029975615753*^9}, {
+  3.90003008713065*^9, 3.900030098535138*^9}},
+ CellLabel->"In[3]:=",
+ CellID->800791417,ExpressionUUID->"b14f2e7d-6ff8-4c50-812e-7d5ddcbe6991"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "2", ",", "3", ",", 
+   RowBox[{"{", 
+    RowBox[{"4", ",", "5"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.900030099508272*^9},
+ CellLabel->"Out[3]=",
+ CellID->391351520,ExpressionUUID->"b208a340-40a5-48ab-9363-fc7d99106a6e"]
 }, Open  ]]
 }, Open  ]],
 
