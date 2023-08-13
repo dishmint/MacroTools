@@ -18,6 +18,8 @@ ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
 FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, level]&\nFlattenOn[level, head] represents an operator form of Flatten[#, level, head]&"
 
+OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
+
 (* TODO: #7 PartsOdd          *)
 (* TODO: #8 PartsEven         *)
 (* TODO: ProgressReport    *)
@@ -131,6 +133,19 @@ AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[
 AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,dates]
 AgendaTitle[datespec:{__String},opts:OptionsPattern[AgendaTitle]]:=AgendaTitle[OptionValue["Range"],Sequence[opts,"DateStringFormat"->datespec]]
 
+(* TODO: add OddIndex documentation *)
+OddIndex[x_List]:= x[[1;;;;2]]
+
+(* 
+    (* Not Necessary *)
+    
+    OddIndex /: expr_List[[OddIndex]] := expr[[1;;;;2]] 
+
+    (* In[5]:= Range[5][[OddIndex]] *)
+
+    (* Out[5]= {1, 3, 5} *)
+    
+    *)
 End[] (* End `Private` *)
 
 EndPackage[]
