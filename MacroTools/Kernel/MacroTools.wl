@@ -18,8 +18,8 @@ ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
 FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, level]&\nFlattenOn[level, head] represents an operator form of Flatten[#, level, head]&"
 
-(* TODO: PartsOdd          *)
-(* TODO: PartsEven         *)
+(* TODO: #7 PartsOdd          *)
+(* TODO: #8 PartsEven         *)
 (* TODO: ProgressReport    *)
 (* TODO: FilterRulesBy     *)
 (* TODO: NormalFixedPoint  *)
