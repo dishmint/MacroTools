@@ -26,6 +26,8 @@ OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
 (* TODO: FilterRulesBy     *)
 (* TODO: NormalFixedPoint  *)
 (* TODO: ItemCases         *)
+(* TODO: HighlightQuery *)
+(* ^^ Highlight Ascending and Descending operators in Query *)
 
 (* TODO: $SystemDocumentationDirectory  *)
 (* TODO: $ExampleDataDirectory          *)
