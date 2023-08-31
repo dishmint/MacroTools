@@ -20,7 +20,6 @@ FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, l
 
 OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
 
-(* TODO: #7 PartsOdd          *)
 (* TODO: #8 PartsEven         *)
 (* TODO: ProgressReport    *)
 (* TODO: FilterRulesBy     *)
