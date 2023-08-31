@@ -19,6 +19,7 @@ AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
 FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, level]&\nFlattenOn[level, head] represents an operator form of Flatten[#, level, head]&"
 
 OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
+EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
 
 (* TODO: #8 PartsEven         *)
 (* TODO: ProgressReport    *)
@@ -134,19 +135,19 @@ AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[
 AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,dates]
 AgendaTitle[datespec:{__String},opts:OptionsPattern[AgendaTitle]]:=AgendaTitle[OptionValue["Range"],Sequence[opts,"DateStringFormat"->datespec]]
 
-(* TODO: add OddIndex documentation *)
-OddIndex[x_List]:= x[[1;;;;2]]
+(* TODO: Add Odd/EvenIndex documentation *)
+(* TODO: Add Extract support for Odd/EvenIndex *)
+OddIndex[expr_]:= expr[[1;;;;2]]
+OddIndex /: expr_[[OddIndex]] := expr[[1;;;;2]] 
+(* In[5]:= Range[5][[OddIndex]] *)
+(* Out[5]= {1, 3, 5} *)
 
-(* 
-    (* Not Necessary *)
+EvenIndex[expr_]:= expr[[2;;;;2]]
+EvenIndex /: expr_[[EvenIndex]] := expr[[2;;;;2]] 
+(* In[5]:= Range[5][[EvenIndex]] *)
+(* Out[5]= {2, 4} *)
     
-    OddIndex /: expr_List[[OddIndex]] := expr[[1;;;;2]] 
-
-    (* In[5]:= Range[5][[OddIndex]] *)
-
-    (* Out[5]= {1, 3, 5} *)
-    
-    *)
+   
 End[] (* End `Private` *)
 
 EndPackage[]
