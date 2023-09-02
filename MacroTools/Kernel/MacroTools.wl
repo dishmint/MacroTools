@@ -21,6 +21,8 @@ FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, l
 OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
 EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
 
+NormalFixedPoint::usage = "NormalFixedPoint[expr] repeatedly applies Normal until the expression no longer changes"
+
 (* TODO: #11 NormalFixedPoint  *)
 (* TODO: ItemCases         *)
 (* TODO: HighlightQuery *)
@@ -143,8 +145,10 @@ EvenIndex[expr_]:= expr[[2;;;;2]]
 EvenIndex /: expr_[[EvenIndex]] := expr[[2;;;;2]] 
 (* In[5]:= Range[5][[EvenIndex]] *)
 (* Out[5]= {2, 4} *)
-    
-   
+
+
+NormalFixedPoint[expr_]:=FixedPoint[Normal,expr]
+
 End[] (* End `Private` *)
 
 EndPackage[]
