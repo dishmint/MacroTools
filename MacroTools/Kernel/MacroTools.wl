@@ -23,7 +23,6 @@ EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
 
 NormalFixedPoint::usage = "NormalFixedPoint[expr] repeatedly applies Normal until the expression no longer changes"
 
-(* TODO: #11 NormalFixedPoint  *)
 (* TODO: ItemCases         *)
 (* TODO: HighlightQuery *)
 (* ^^ Highlight Ascending and Descending operators in Query *)
