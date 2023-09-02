@@ -21,7 +21,7 @@ FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, l
 OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
 EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
 
-(* TODO: NormalFixedPoint  *)
+(* TODO: #11 NormalFixedPoint  *)
 (* TODO: ItemCases         *)
 (* TODO: HighlightQuery *)
 (* ^^ Highlight Ascending and Descending operators in Query *)
