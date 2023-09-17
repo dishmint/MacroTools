@@ -723,7 +723,7 @@ changed as desired. Use additional cells and cell styles as needed.",
 Cell[BoxData[
  RowBox[{"Quit", "[", "]"}]], "Input", "Excluded",
  CellChangeTimes->{{3.899734226134605*^9, 3.899734226797243*^9}},
- CellLabel->"In[13]:=",
+ CellLabel->"In[28]:=",
  CellID->734605968,ExpressionUUID->"a5b79ebe-19b9-434d-83c1-f04186321250"],
 
 Cell[CellGroupData[{
@@ -952,16 +952,17 @@ Cell[BoxData[
   RowBox[{"{", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+     RowBox[{"123", ",", "45", ",", "6"}], "}"}], ",", 
     RowBox[{"{", 
      RowBox[{"a", ",", "b", ",", "c"}], "}"}]}], "}"}], "]"}]], "Input",
- CellChangeTimes->{{3.899776938022298*^9, 3.899776968675048*^9}},
- CellLabel->"In[3]:=",
+ CellChangeTimes->{{3.899776938022298*^9, 3.899776968675048*^9}, {
+  3.903904579694295*^9, 3.903904581997069*^9}},
+ CellLabel->"In[9]:=",
  CellID->124198210,ExpressionUUID->"2433aac1-535a-41f1-b5b5-4ca600bc1c18"],
 
 Cell[BoxData[
  TagBox[GridBox[{
-    {"1", "2", "3"},
+    {"123", "45", "6"},
     {"a", "b", "c"}
    },
    AutoDelete->False,
@@ -969,9 +970,54 @@ Cell[BoxData[
    GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.899776969404214*^9},
- CellLabel->"Out[3]=",
- CellID->1499161491,ExpressionUUID->"411cdc2d-5e82-4449-8662-6fec7811bb15"]
+ CellChangeTimes->{3.899776969404214*^9, 3.903904582426503*^9},
+ CellLabel->"Out[9]=",
+ CellID->1814375971,ExpressionUUID->"6a252dfd-2312-4e2e-be03-843b0da9e073"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Optioned", "[", 
+   RowBox[{"Grid", ",", 
+    RowBox[{"Alignment", "->", "Left"}], ",", " ", 
+    RowBox[{"Frame", "->", "All"}], ",", 
+    RowBox[{"ItemStyle", "->", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Directive", "[", "Red", "]"}], "}"}], ",", "\"\<Code\>\""}], 
+      "}"}]}]}], "]"}], "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"123", ",", "45", ",", "6"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c"}], "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.903904368893549*^9, 3.90390437858817*^9}, {
+  3.903904417772202*^9, 3.903904456939941*^9}, {3.90390457128579*^9, 
+  3.903904574424474*^9}},
+ CellLabel->"In[8]:=",
+ CellID->2068213569,ExpressionUUID->"15c12ec3-1025-45de-89a3-575940b4eefa"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"123", "45", "6"},
+    {"a", "b", "c"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+   GridBoxItemStyle->{"Columns" -> {
+       Directive[
+        RGBColor[1, 0, 0]]}, "Rows" -> {{"Code"}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.903904407596665*^9, 3.90390445743908*^9}, 
+   3.903904574793779*^9},
+ CellLabel->"Out[8]=",
+ CellID->1416168509,ExpressionUUID->"3a348022-2a70-4954-b67b-ec9896b5fbbe"]
 }, Open  ]],
 
 Cell["Process an expression by a set of functions:", "ExampleText",
@@ -1183,6 +1229,18 @@ Cell[BoxData[
  CellLabel->"Out[3]=",
  CellID->1801676457,ExpressionUUID->"5979d508-1d26-4204-b835-9f3e4f93a27e"]
 }, Open  ]],
+
+Cell[TextData[{
+ "Instead of applying Normal individually several times, use ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox["NormalFixedPoint", "Input"], TraditionalForm]],ExpressionUUID->
+  "2a93d793-75f2-445a-8a41-96dac8169ab0"],
+ ":"
+}], "ExampleText",
+ CellChangeTimes->{{3.899853158113372*^9, 3.8998531892046757`*^9}, {
+  3.902613551069911*^9, 3.9026135976717873`*^9}},
+ CellID->1097093800,ExpressionUUID->"172d9f11-4535-4e7c-9488-f05d7ec42333"],
 
 Cell[CellGroupData[{
 
@@ -1644,19 +1702,6 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
  CellLabel->"Out[4]=",
  CellID->1313465903,ExpressionUUID->"809428cd-6c2a-4eb3-a3dd-b371323c23e3"]
 }, Open  ]],
-
-Cell[TextData[{
- "Instead of applying Normal individually several times, use ",
- Cell[BoxData[
-  FormBox[
-   StyleBox["NormalFixedPoint", "Input"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "72fb85b5-de76-495c-8487-bff499b68151"],
- ":"
-}], "ExampleText",
- CellChangeTimes->{{3.899853158113372*^9, 3.8998531892046757`*^9}, {
-  3.902613551069911*^9, 3.9026135976717873`*^9}},
- CellID->1097093800,ExpressionUUID->"172d9f11-4535-4e7c-9488-f05d7ec42333"],
 
 Cell[CellGroupData[{
 

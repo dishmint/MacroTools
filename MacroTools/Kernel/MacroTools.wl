@@ -13,10 +13,10 @@ TaggedDirectedFan::usage = "TaggedDirectedFan[p, {c1, c2, ...}] returns a list o
 TaggedUndirectedFan::usage = "TaggedUndirectedFan[p, c1] returns a list of undirected edges from p to each ci with integer tags"
 TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edge type e from p to each ci with integer tags"
 
-Optioned::usage = "Optioned[f, opts] returns a function that applies opts to f"
+Optioned::usage = "Optioned[f, opts] applies function f with options opts to an expression"
 ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
-AgendaTitle::usage = "AgendaTitle[date] creates a title cell"
-FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[#, level]&\nFlattenOn[level, head] represents an operator form of Flatten[#, level, head]&"
+AgendaTitle::usage = "AgendaTitle[date] creates agenda cells for the given date"
+FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[expr, level]\nFlattenOn[level, head] represents an operator form of Flatten[expr, level, head]"
 
 OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
 EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
