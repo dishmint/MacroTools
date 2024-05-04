@@ -123,8 +123,8 @@ AgendaTitle[date_DateObject,OptionsPattern[AgendaTitle]]:=NotebookWrite[
         Cell[BoxData[OptionValue["Content"]],"Input"]
         }
     ]
-AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,{date}]
-AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,dates]
+AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Scan[AgendaTitle[#,opts]&,{date}]
+AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Scan[AgendaTitle[#,opts]&,dates]
 AgendaTitle[datespec:{__String},opts:OptionsPattern[AgendaTitle]]:=AgendaTitle[OptionValue["Range"],Sequence[opts,"DateStringFormat"->datespec]]
 
 (* TODO: Add Odd/EvenPart documentation *)
