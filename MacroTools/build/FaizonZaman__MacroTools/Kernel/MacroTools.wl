@@ -14,7 +14,6 @@ TaggedUndirectedFan::usage = "TaggedUndirectedFan[p, c1] returns a list of undir
 TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edge type e from p to each ci with integer tags"
 
 Optioned::usage = "Optioned[f, opts] applies function f with options opts to an expression"
-ProcessBy::usage = "ProcessBy[p[f1, f2, ...]] is an operator form of Through"
 AgendaTitle::usage = "AgendaTitle[date] creates agenda cells for the given date"
 FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[expr, level]\nFlattenOn[level, head] represents an operator form of Flatten[expr, level, head]"
 
@@ -105,11 +104,6 @@ TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List, tags_List])] /;
 
 (* Optioned *)
 Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
-
-
-(* ProcessBy *)
-ProcessBy[p_[funcs__]][target__] := Through[p[funcs][target]]
-ProcessBy[p_[funcs__], h_][target__] := Through[p[funcs][target], h]
 
 (* FlattenOn *)
 FlattenOn[level_][expr_]:=Flatten[expr, level]
