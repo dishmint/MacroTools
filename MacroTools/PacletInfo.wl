@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Faizon Zaman",
     "License" -> "MIT",
     "PublisherID" -> "FaizonZaman",
-    "Version" -> "1.1.1",
+    "Version" -> "1.1.2",
     "WolframVersion" -> "13.3+",
     "PrimaryContext" -> "FaizonZaman`MacroTools`",
     "Extensions" -> {
@@ -21,7 +21,6 @@ PacletObject[
           "FaizonZaman`MacroTools`EdgeFan",
           "FaizonZaman`MacroTools`EvenPart",
           "FaizonZaman`MacroTools`FlattenLevel",
-          "FaizonZaman`MacroTools`FlattenOn",
           "FaizonZaman`MacroTools`NormalFixedPoint",
           "FaizonZaman`MacroTools`OddPart",
           "FaizonZaman`MacroTools`Optioned",
