@@ -3,11 +3,11 @@
 PacletObject[
   <|
     "Name" -> "FaizonZaman/MacroTools",
-    "Description" -> "Random functions I've implemented that might not fit WFR",
+    "Description" -> "Convenience and Experimental function implementations",
     "Creator" -> "Faizon Zaman",
     "License" -> "MIT",
     "PublisherID" -> "FaizonZaman",
-    "Version" -> "1.0.1",
+    "Version" -> "1.1.0",
     "WolframVersion" -> "13.3+",
     "PrimaryContext" -> "FaizonZaman`MacroTools`",
     "Extensions" -> {
