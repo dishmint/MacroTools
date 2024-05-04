@@ -45,4 +45,24 @@
  "English/ReferencePages/Symbols/UndirectedFan.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[0.881312, "Seconds"]|>], 
-   "FileHash" -> "HRA51Lffh0MB1LXcq+gSqQY/fFEGDvRbvGUfEmYfJVI="|>|>
+   "FileHash" -> "HRA51Lffh0MB1LXcq+gSqQY/fFEGDvRbvGUfEmYfJVI="|>, 
+ "English/Guides/MacroToolsGuide.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[2.003786, "Seconds"]|>], 
+   "FileHash" -> "QsiCYPC9K43LpLppzV+Ld0Q9UDD36ChTjaEoFELFMQc="|>, 
+ "English/ReferencePages/Symbols/EvenPart.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.069604, "Seconds"]|>], 
+   "FileHash" -> "QaW5A2Bt5iGzxcDJpAWB+7cqt7jt84Fz69l7bxk2NPs="|>, 
+ "English/ReferencePages/Symbols/FlattenLevel.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[0.968183, "Seconds"]|>], 
+   "FileHash" -> "0AnrdM8xMk4tVUpOnBtKFP1JIsxOPAae669oNT3Z1Os="|>, 
+ "English/ReferencePages/Symbols/NormalFixedPoint.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.159897, "Seconds"]|>], 
+   "FileHash" -> "BBCXPNJZ8jyB8xk7Rc1HaFyym7Yjbitlm8UKGCA3TK8="|>, 
+ "English/ReferencePages/Symbols/OddPart.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[0.986353, "Seconds"]|>], 
+   "FileHash" -> "QXuFC7VwoyiEWdzy8MB3GxNYMmDxJQ57E3LKHPmlGNY="|>|>
