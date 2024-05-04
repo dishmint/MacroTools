@@ -11,7 +11,20 @@
             ,
             "Hash"
             ->
-            "3a64215b650b2a8092233e8dcdf95628cc16c33d0e44976d450d7c7c07e4361d"
+            "d5435d8584ece8cb652d728b2694ba5b19e972261c52d16f5b34458edf41ffb8"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation/English/Guides/MacroToolsGuide.nb"
+            ]
+            ,
+            "Hash"
+            ->
+            "86929914626f3762c39da0da9357ddcfcdae173377db64f5c263bb963f513d13"
                 
         |>
         ,
@@ -61,13 +74,55 @@
             "File"
             ->
             File[
-                "Documentation/English/ReferencePages/Symbols/FlattenOn.nb"
+                "Documentation/English/ReferencePages/Symbols/EvenPart.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "0f265ecf0fcc6d69a31f5b18c15fbd9ac0210dcd610e483d918cbd59b6ff2aec"
+            "dd22acf34e43d7aa6190947d7caf43ba8100f6dac331161d4a7d6e3bd2b5642e"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation/English/ReferencePages/Symbols/FlattenLevel.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "4de8ec532e5f4634cd17ed12c164a0baefb778a676d39e72992008f062a4bd25"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation/English/ReferencePages/Symbols/NormalFixedPoint.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "b0afa282d17ed5b74f7e0a35b7f11f46c4f58c69e33ba1c1547f87a81c02b01a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation/English/ReferencePages/Symbols/OddPart.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "716dc146d6533b0493b488faad655d2ac305ee0ff1589785351b61ca003ce7bd"
                 
         |>
         ,

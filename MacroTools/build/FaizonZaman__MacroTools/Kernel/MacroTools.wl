@@ -15,10 +15,10 @@ TaggedEdgeFan::usage = "TaggedEdgeFan[e[p, c1]] returns a list of edges with edg
 
 Optioned::usage = "Optioned[f, opts] applies function f with options opts to an expression"
 AgendaTitle::usage = "AgendaTitle[date] creates agenda cells for the given date"
-FlattenOn::usage = "FlattenOn[level] represents an operator form of Flatten[expr, level]\nFlattenOn[level, head] represents an operator form of Flatten[expr, level, head]"
+FlattenLevel::usage = "FlattenLevel[level] represents an operator form of Flatten[expr, level]\nFlattenLevel[level, head] represents an operator form of Flatten[expr, level, head]"
 
-OddIndex::usage = "OddIndex[list] returns the odd-indexed elements of list"
-EvenIndex::usage = "EvenIndex[list] returns the even-indexed elements of list"
+OddPart::usage = "OddPart[list] returns the odd-indexed elements of list"
+EvenPart::usage = "EvenPart[list] returns the even-indexed elements of list"
 
 NormalFixedPoint::usage = "NormalFixedPoint[expr] repeatedly applies Normal until the expression no longer changes"
 
@@ -105,9 +105,9 @@ TaggedEdgeFan[ ((edge:(DirectedEdge|UndirectedEdge))[nodes_List, tags_List])] /;
 (* Optioned *)
 Optioned[h_Symbol, opts : OptionsPattern[]][content_] := h[content, opts]
 
-(* FlattenOn *)
-FlattenOn[level_][expr_]:=Flatten[expr, level]
-FlattenOn[level_, head_][expr_]:=Flatten[expr, level, head]
+(* FlattenLevel *)
+FlattenLevel[level_][expr_]:=Flatten[expr, level]
+FlattenLevel[level_, head_][expr_]:=Flatten[expr, level, head]
 
 (* Notebook functions *)
 Options[AgendaTitle]={
@@ -127,16 +127,16 @@ AgendaTitle[date__DateObject,opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[
 AgendaTitle[dates:{__DateObject},opts:OptionsPattern[AgendaTitle]]:=Map[AgendaTitle[#,opts]&,dates]
 AgendaTitle[datespec:{__String},opts:OptionsPattern[AgendaTitle]]:=AgendaTitle[OptionValue["Range"],Sequence[opts,"DateStringFormat"->datespec]]
 
-(* TODO: Add Odd/EvenIndex documentation *)
-(* TODO: Add Extract support for Odd/EvenIndex *)
-OddIndex[expr_]:= expr[[1;;;;2]]
-OddIndex /: expr_[[OddIndex]] := expr[[1;;;;2]] 
-(* In[5]:= Range[5][[OddIndex]] *)
+(* TODO: Add Odd/EvenPart documentation *)
+(* TODO: Add Extract support for Odd/EvenPart *)
+OddPart[expr_]:= expr[[1;;;;2]]
+OddPart /: expr_[[OddPart]] := expr[[1;;;;2]] 
+(* In[5]:= Range[5][[OddPart]] *)
 (* Out[5]= {1, 3, 5} *)
 
-EvenIndex[expr_]:= expr[[2;;;;2]]
-EvenIndex /: expr_[[EvenIndex]] := expr[[2;;;;2]] 
-(* In[5]:= Range[5][[EvenIndex]] *)
+EvenPart[expr_]:= expr[[2;;;;2]]
+EvenPart /: expr_[[EvenPart]] := expr[[2;;;;2]] 
+(* In[5]:= Range[5][[EvenPart]] *)
 (* Out[5]= {2, 4} *)
 
 

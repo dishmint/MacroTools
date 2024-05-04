@@ -1,0 +1,483 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18418,        473]
+NotebookOptionsPosition[     14670,        394]
+NotebookOutlinePosition[     16299,        434]
+CellTagsIndexPosition[     16256,        431]
+WindowTitle->MacroTools
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "FAIZON ZAMAN/ MACRO TOOLS GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "e4d3c018-dd61-418a-a424-10c96d5f84e0"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "9f117d02-3e48-4ce9-805e-0366821662e9"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "be086d1f-d122-47ae-8b14-be3cbc5c4baf"]
+         }],ExpressionUUID->"e96f6bde-79a3-4fb5-8322-b6e95207a13f"],
+         StripOnInput->False],{
+        "\"AgendaTitle\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/AgendaTitle"], "\"DirectedFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/DirectedFan"], "\"EdgeFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/EdgeFan"], "\"EvenPart\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/EvenPart"], "\"Flatten\"" :> 
+         Documentation`HelpLookup["paclet:ref/Flatten"], "\"FlattenLevel\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/FlattenLevel"], 
+         "\"NormalFixedPoint\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/NormalFixedPoint"], 
+         "\"OddPart\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/OddPart"], "\"Optioned\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/Optioned"], "\"SequencedMap\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/SequencedMap"], "\"SplicedMap\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/SplicedMap"], 
+         "\"TaggedDirectedFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/TaggedDirectedFan"], 
+         "\"TaggedEdgeFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan"], 
+         "\"TaggedUndirectedFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/TaggedUndirectedFan"], 
+         "\"UndirectedFan\"" :> 
+         Documentation`HelpLookup[
+          "paclet:FaizonZaman/MacroTools/ref/UndirectedFan"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "d7a1033a-b999-4643-9ea5-0ef83d57e13b"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "1a6a2825-73ba-4857-ab99-c0969cb8685b"]
+         }],ExpressionUUID->"c576b974-21cc-4b60-a339-6627658aa268"],
+         StripOnInput->False],{
+        "\"FaizonZaman/MacroTools/guide/MacroToolsGuide\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{Cell["FaizonZaman/MacroTools/guide/MacroToolsGuide"]}, 
+               Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/FaizonZaman/\
+MacroTools/guide/MacroToolsGuide.html"], StandardForm]], "Input", 
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[False], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "FaizonZaman/MacroTools/guide/MacroToolsGuide" <> ".html"], 
+              None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "1d17e235-ca86-404d-afb1-2593064a3c27"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "175d4e1f-b288-43e4-99c3-0fba7d653e40"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"ffed06bf-f0b3-41f6-af71-3ccbd98ff00b"],
+
+Cell[CellGroupData[{
+
+Cell["MacroTools", "GuideTitle",
+ CellID->2106115502,ExpressionUUID->"a232e314-bb01-4331-b426-309ec89edbf1"],
+
+Cell["\<\
+The MacroTools contains convenience and experimental function implementations.\
+\>", "GuideAbstract",
+ CellID->510288613,ExpressionUUID->"3adb25fc-b923-4b67-959a-b9a1900a00df"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"743daf33-ece3-4b58-bb4b-101692e11b00"],
+
+Cell[CellGroupData[{
+
+Cell["Miscellaneous", "GuideFunctionsSubsection",
+ CellID->345208894,ExpressionUUID->"f59f2d9c-3a4f-48be-ac9d-fdfecf83ed8a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FlattenLevel"]], 
+    "paclet:FaizonZaman/MacroTools/ref/FlattenLevel", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "88feb8b1-be1b-4b31-882b-38c8f7e173ea"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " represents an operator form of ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Flatten"]], "paclet:ref/Flatten"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "e2d951c4-560b-4049-af48-4ffe411ca92e"],
+ " with a level specification."
+}], "GuideText",
+ CellID->1006448592,ExpressionUUID->"f2060a66-ed16-45d3-b9ab-69755e92d3ca"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["AgendaTitle"]], 
+    "paclet:FaizonZaman/MacroTools/ref/AgendaTitle", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "89c61923-3be2-4017-8b44-a9344739a8e3"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Create date-stamped section headers."
+}], "GuideText",
+ CellID->1800281972,ExpressionUUID->"ec2e5adc-36aa-4fc7-b7aa-a4ee89c8540b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Optioned"]], "paclet:FaizonZaman/MacroTools/ref/Optioned", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c0bf2870-0484-499d-a012-01d65c9f9cf0",ExpressionUUID->
+  "a1f5a8da-96ba-4310-855e-43d0b45cc0a4"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " represents an operator form of a function with specified options."
+}], "GuideText",
+ CellID->298521325,ExpressionUUID->"e6099070-c2ba-46fa-a870-9787a0dca861"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["NormalFixedPoint"]], 
+    "paclet:FaizonZaman/MacroTools/ref/NormalFixedPoint", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c0bf2870-0484-499d-a012-01d65c9f9cf0",ExpressionUUID->
+  "be528edf-f6a3-4a95-9803-1a028d5e8b5c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Repeated apply Normal until an expression no longer changes."
+}], "GuideText",
+ CellID->989602820,ExpressionUUID->"631ac140-9031-4be1-a1d1-26a131058f6b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Indexing", "GuideFunctionsSubsection",
+ CellID->1903245630,ExpressionUUID->"2454749b-2c48-404d-b732-c0d7929d71d0"],
+
+Cell["Access even and odd indexed subexpressions", "GuideText",
+ CellID->1295708009,ExpressionUUID->"5b239f11-faa3-4c9c-be32-d1fe66897968"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["EvenPart"]], "paclet:FaizonZaman/MacroTools/ref/EvenPart", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "f46affc4-75b4-4075-85b9-4e6f97edf926"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["OddPart"]], "paclet:FaizonZaman/MacroTools/ref/OddPart", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"3e4ff5c7-cbc9-439f-88db-90c67286423e",ExpressionUUID->
+  "757b5562-2172-4975-967b-c5085a9a810e"]
+}], "InlineGuideFunctionListing",
+ CellID->1354842152,ExpressionUUID->"2548a851-977d-4bf6-804e-7332998c6492"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mapping", "GuideFunctionsSubsection",
+ CellID->86647395,ExpressionUUID->"3afbb2fe-019c-421c-9800-d9e49a107116"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SequencedMap"]], 
+    "paclet:FaizonZaman/MacroTools/ref/SequencedMap", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "9a2f0022-6d13-4624-8668-559670fef284"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SplicedMap"]], "paclet:FaizonZaman/MacroTools/ref/SplicedMap", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"a9703fcd-f3c6-4000-b23c-3c939784f2d8",ExpressionUUID->
+  "0c7994b2-c486-439f-873b-e88301594539"]
+}], "InlineGuideFunctionListing",
+ CellID->2129411415,ExpressionUUID->"8d2e60ed-6e0c-474b-b395-286f46673878"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Graphs", "GuideFunctionsSubsection",
+ CellID->340107149,ExpressionUUID->"58e49445-067b-47f2-ab32-ced31aa7889a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["DirectedFan"]], 
+    "paclet:FaizonZaman/MacroTools/ref/DirectedFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "04c19b06-5f60-4dd4-82aa-bcfa3d4d611d"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["UndirectedFan"]], 
+    "paclet:FaizonZaman/MacroTools/ref/UndirectedFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4ecb48fa-8506-4dda-b09e-57202253c995",ExpressionUUID->
+  "7012d7d1-0a5d-4756-9b58-85240ee76827"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["EdgeFan"]], "paclet:FaizonZaman/MacroTools/ref/EdgeFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"82a18e6c-85bf-49bc-9790-2aea49860d6c",ExpressionUUID->
+  "e4de4e5b-8a5d-468d-9c83-63f715f8d2e9"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TaggedDirectedFan"]], 
+    "paclet:FaizonZaman/MacroTools/ref/TaggedDirectedFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"94d821bb-2190-4c38-8739-11214bee48f3",ExpressionUUID->
+  "5f789afa-2ca8-4d7f-946f-83d75e8fb4b1"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TaggedUndirectedFan"]], 
+    "paclet:FaizonZaman/MacroTools/ref/TaggedUndirectedFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"b2927dce-e584-4784-b484-d8ef93b22fab",ExpressionUUID->
+  "40f7c318-28d8-44d2-bfc8-220037c69b81"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TaggedEdgeFan"]], 
+    "paclet:FaizonZaman/MacroTools/ref/TaggedEdgeFan", 
+    "FaizonZaman Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"56a02fed-639b-4041-a83b-cc87cac36d70",ExpressionUUID->
+  "4935502b-3e52-4c0f-a7ec-f04078349300"]
+}], "InlineGuideFunctionListing",
+ CellID->62252449,ExpressionUUID->"5ebcc1fe-7e3a-42e7-b62d-bde70ae556b2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[" ", "FooterCell",ExpressionUUID->"61d89dd1-7b6b-4c19-9f1f-f1335856a54e"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 830},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MacroTools",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", "HeaderCoreAreaLink" -> {}, 
+  "Metadata" -> {
+   "built" -> "{2024, 5, 3, 20, 37, 57.762820}", 
+    "history" -> {"XX", "", "", ""}, "context" -> "FaizonZaman`MacroTools`", 
+    "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "Faizon Zaman/ Macro Tools Guide", "language" -> "en", "paclet" -> 
+    "FaizonZaman/MacroTools", "status" -> "None", "summary" -> 
+    "The MacroTools contains convenience and experimental function \
+implementations.", "synonyms" -> {}, "tabletags" -> {}, "title" -> 
+    "MacroTools", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "MacroTools", "type" -> "Guide", "uri" -> 
+    "FaizonZaman/MacroTools/guide/MacroToolsGuide"}},
+CacheGraphics->False,
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"fb8e0ccc-21aa-42f7-a032-a6f383a1cfdf"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[582, 21, 6152, 142, 57, "AnchorBarGrid",ExpressionUUID->"ffed06bf-f0b3-41f6-af71-3ccbd98ff00b",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[6759, 167, 108, 1, 61, "GuideTitle",ExpressionUUID->"a232e314-bb01-4331-b426-309ec89edbf1",
+ CellID->2106115502],
+Cell[6870, 170, 186, 3, 38, "GuideAbstract",ExpressionUUID->"3adb25fc-b923-4b67-959a-b9a1900a00df",
+ CellID->510288613],
+Cell[7059, 175, 93, 0, 24, "GuideDelimiterSubsection",ExpressionUUID->"743daf33-ece3-4b58-bb4b-101692e11b00"],
+Cell[CellGroupData[{
+Cell[7177, 179, 124, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"f59f2d9c-3a4f-48be-ac9d-fdfecf83ed8a",
+ CellID->345208894],
+Cell[7304, 182, 803, 23, 29, "GuideText",ExpressionUUID->"f2060a66-ed16-45d3-b9ab-69755e92d3ca",
+ CellID->1006448592],
+Cell[8110, 207, 547, 15, 29, "GuideText",ExpressionUUID->"ec2e5adc-36aa-4fc7-b7aa-a4ee89c8540b",
+ CellID->1800281972],
+Cell[8660, 224, 564, 14, 29, "GuideText",ExpressionUUID->"e6099070-c2ba-46fa-a870-9787a0dca861",
+ CellID->298521325],
+Cell[9227, 240, 580, 15, 29, "GuideText",ExpressionUUID->"631ac140-9031-4be1-a1d1-26a131058f6b",
+ CellID->989602820]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9844, 260, 120, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"2454749b-2c48-404d-b732-c0d7929d71d0",
+ CellID->1903245630],
+Cell[9967, 263, 139, 1, 27, "GuideText",ExpressionUUID->"5b239f11-faa3-4c9c-be32-d1fe66897968",
+ CellID->1295708009],
+Cell[10109, 266, 810, 20, 28, "InlineGuideFunctionListing",ExpressionUUID->"2548a851-977d-4bf6-804e-7332998c6492",
+ CellID->1354842152]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10956, 291, 117, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"3afbb2fe-019c-421c-9800-d9e49a107116",
+ CellID->86647395],
+Cell[11076, 294, 829, 21, 28, "InlineGuideFunctionListing",ExpressionUUID->"8d2e60ed-6e0c-474b-b395-286f46673878",
+ CellID->2129411415]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11942, 320, 117, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"58e49445-067b-47f2-ab32-ced31aa7889a",
+ CellID->340107149],
+Cell[12062, 323, 2499, 65, 28, "InlineGuideFunctionListing",ExpressionUUID->"5ebcc1fe-7e3a-42e7-b62d-bde70ae556b2",
+ CellID->62252449]
+}, Open  ]]
+}, Open  ]],
+Cell[14588, 392, 78, 0, 40, "FooterCell",ExpressionUUID->"61d89dd1-7b6b-4c19-9f1f-f1335856a54e"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
